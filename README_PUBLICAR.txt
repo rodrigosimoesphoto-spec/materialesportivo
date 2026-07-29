@@ -1,7 +1,7 @@
-SIGME 2.5.1 — pacote para iPhone/PWA
+SIGME v2.5.1 — Pacote iPhone/PWA CORRIGIDO
 
-Este pacote precisa ser publicado em um endereço HTTPS.
-Envie todo o conteúdo desta pasta para um serviço de hospedagem estática.
-Depois abra o endereço no Safari do iPhone e use Compartilhar > Adicionar à Tela de Início.
+Envie os arquivos descompactados para a raiz do repositório configurado no GitHub Pages.
+O arquivo index.html deve ficar na raiz, junto de manifest.webmanifest e sw.js.
+Não envie apenas o ZIP.
 
-Importante: o banco local do iPhone será separado do banco do computador até a sincronização segura ser implementada.
+Correção: o registro do Service Worker agora foi inserido no final real do HTML, sem interferir na biblioteca de exportação Excel.
